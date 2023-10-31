@@ -1,6 +1,6 @@
 import unittest
 from datetime import datetime
-# aaysh kapil
+# aaysh kapil 
 from engine.model.calliope import Calliope
 from engine.model.glissade import Glissade
 from engine.model.palindrome import Palindrome
@@ -29,7 +29,7 @@ class TestCalliope(unittest.TestCase):
 
     def test_engine_should_be_serviced(self):
         last_service_date = datetime.today().date()
-        current_mileage = 30001
+        current_mileage = 30003
         last_service_mileage = 0
 
         car = Calliope(last_service_date, current_mileage, last_service_mileage)
@@ -65,7 +65,7 @@ class TestGlissade(unittest.TestCase):
 
     def test_engine_should_be_serviced(self):
         last_service_date = datetime.today().date()
-        current_mileage = 60001
+        current_mileage = 60005
         last_service_mileage = 0
 
         car = Glissade(last_service_date, current_mileage, last_service_mileage)
@@ -133,7 +133,7 @@ class TestRorschach(unittest.TestCase):
 
     def test_engine_should_be_serviced(self):
         last_service_date = datetime.today().date()
-        current_mileage = 60001
+        current_mileage = 60004
         last_service_mileage = 0
 
         car = Rorschach(last_service_date, current_mileage, last_service_mileage)
@@ -169,7 +169,7 @@ class TestThovex(unittest.TestCase):
 
     def test_engine_should_be_serviced(self):
         last_service_date = datetime.today().date()
-        current_mileage = 30001
+        current_mileage = 30003
         last_service_mileage = 0
 
         car = Thovex(last_service_date, current_mileage, last_service_mileage)
